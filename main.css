@@ -1,0 +1,32 @@
+
+main {
+	width: 1000px;
+	height: 1000px;
+	background-color: gray;
+	margin: 0 auto;
+}
+
+#searchHeader {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	width: 800px;
+	height: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.resultcontainer {
+	width : 200px;
+	height: 200px;
+	
+}
+
