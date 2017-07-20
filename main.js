@@ -35,13 +35,13 @@ fetch(url)
           //console.log(data)
           data.results.forEach(function(data){
           
-           
-           
-           if(data.thumbnail = ){
+           //if(data.thumbnail = ""){
             
-           data.thumbnail = missingpic
+           //data.thumbnail = missingpic
 
-           }
+           //}///doesn't work, have to do function after resultBlock is rendered
+           
+           
 
            
 
@@ -52,7 +52,7 @@ fetch(url)
 
           resultBlock = `
 
-          <div class = "resultcontainer">
+          <div id = "resultcontainer">
           <img src = "${data.thumbnail}" alt = "${data.title}">
           <h3>${data.title}</h3>
           <p>${data.ingredients}</p>

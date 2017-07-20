@@ -1,9 +1,18 @@
 
+body {
+	background-image: url(./images/pattern.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
 main {
 	width: 1000px;
 	height: 1000px;
-	background-color: gray;
+	background-color: transparent;
 	margin: 0 auto;
+	border: 2px solid darkblue;
 }
 
 #searchHeader {
@@ -14,19 +23,51 @@ main {
 
 h1 {
 	text-align: center;
+	font-family: 'Crete Round', Serif;
+	font-size: 65px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(#eee, darkblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#search {
+	width: 500px;
+	height: 25px;
+	border: 2px solid darkblue;
+	font-family: 'Crete Round', Serif;
+	color: darkblue;
+	font-size: 20px;
+}
+
+#submit {
+	width: 100px;
+	height: 30px;
+	background-color: darkblue;
+	font-family: 'Crete Round', Serif;
+	color: white;
+	font-size: 18px;
+
 }
 
 #container {
-	width: 800px;
+	width: 1000px;
 	height: 1000px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.resultcontainer {
-	width : 200px;
-	height: 200px;
+#resultcontainer {
+	background: white;
+	width : 216px;
+	height: 300px;
+	padding: 15px;
+	border: 2px solid darkblue;
+	color: darkblue;
+	font-family: 'Crete Round', Serif
+
 	
 }
 
